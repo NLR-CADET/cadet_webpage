@@ -21,10 +21,9 @@ A flexible optimization framework for making capacity-related decisions in elect
 
 The CADET project consists of three interconnected repositories that provide a comprehensive solution for distribution network planning and optimization:
 
-<div class="project-cards">
+<div class="project-cards" markdown="1">
 
 ### 🔌 CADET OPT
-{: .text-blue-300 }
 
 The core optimization framework with comprehensive documentation, modular architecture, and support for various distribution planning scenarios.
 
@@ -42,7 +41,6 @@ The core optimization framework with comprehensive documentation, modular archit
 
 ### 📊 CADET Stochastic
 {: .text-purple-200 }
-
 Extends CADET with stochastic optimization capabilities for decision-making under uncertainty, particularly for resilience and restoration planning.
 
 **Key capabilities:**
@@ -57,7 +55,6 @@ Extends CADET with stochastic optimization capabilities for decision-making unde
 
 ### 💡 CADET Examples
 {: .text-green-200 }
-
 Practical example implementations and test cases for CADET OPT, helping users understand how to apply the framework to real distribution network planning problems.
 
 **Key features:**
@@ -75,22 +72,23 @@ Practical example implementations and test cases for CADET OPT, helping users un
 ## Recent News
 
 <div class="recent-posts">
+{% for post in site.posts markdown="1">
 {% for post in site.posts limit:3 %}
-  <div class="post-preview">
-### [{{ post.title }}]({{ post.url | relative_url }})
-{: .mb-1 }
-*{{ post.date | date: "%B %d, %Y" }}*
-{: .text-grey-dk-000 .mb-2 }
+<div class="post-preview" markdown="1">
 
+### [{{ post.title }}]({{ post.url | relative_url }})
+
+*{{ post.date | date: "%B %d, %Y" }}*
 {{ post.excerpt }}
 
 [Read more]({{ post.url | relative_url }}){: .btn .btn-sm }
   </div>
+
+</div>
 {% endfor %}
 </div>
 
-[View All News](/cadet_webpage/blog/){: .btn .btn-outline }
-
+[View All News](/cadet_webpage/blog/)
 ---
 
 ## Quick Links
