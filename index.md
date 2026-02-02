@@ -71,24 +71,17 @@ Practical example implementations and test cases for CADET OPT, helping users un
 
 ## Recent News
 
-<div class="recent-posts">
-{% for post in site.posts markdown="1">
 {% for post in site.posts limit:3 %}
-<div class="post-preview" markdown="1">
-
-### [{{ post.title }}]({{ post.url | relative_url }})
-
-*{{ post.date | date: "%B %d, %Y" }}*
+<div class="post-preview">
+<h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+<p><em>{{ post.date | date: "%B %d, %Y" }}</em></p>
 {{ post.excerpt }}
-
-[Read more]({{ post.url | relative_url }}){: .btn .btn-sm }
-  </div>
-
+<p><a href="{{ post.url | relative_url }}" class="btn btn-outline">Read more</a></p>
 </div>
 {% endfor %}
-</div>
 
-[View All News](/cadet_webpage/blog/)
+<p><a href="/cadet_webpage/blog/" class="btn btn-primary">View All News</a></p>
+
 ---
 
 ## Quick Links
