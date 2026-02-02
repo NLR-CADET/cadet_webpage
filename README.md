@@ -5,7 +5,7 @@ Official website for the CADET (Capacity Expansion Decision Support Tool) projec
 
 ## About CADET
 
-CADET is a flexible optimization framework for distribution network planning developed by the National Renewable Energy Laboratory (NREL). It helps utilities and planners make capacity-related decisions based on multiple objectives including cost, reliability, resilience, air quality, equity, carbon reductions, and hosting capacity.
+CADET is a flexible optimization framework for distribution network planning developed by the National Renewable Energy Laboratory (NREL). It helps utilities and planners make capacity-related decisions based on multiple objectives including cost, reliability, resilience, air quality, carbon reductions, and hosting capacity.
 
 ## Website Structure
 

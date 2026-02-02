@@ -31,7 +31,7 @@ Core optimization framework for distribution network planning
 
 ## Overview
 
-CADET OPT is a flexible optimization framework for making capacity-related decisions in electric distribution networks. It helps utilities and planners evaluate and recommend solutions based on multiple objectives including cost, reliability, resilience, air quality, equity, carbon reductions, and hosting capacity.
+CADET OPT is a flexible optimization framework for making capacity-related decisions in electric distribution networks. It helps utilities and planners evaluate and recommend solutions based on multiple objectives including cost, reliability, resilience, air quality, carbon reductions, and hosting capacity.
 
 ---
 

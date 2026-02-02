@@ -9,7 +9,7 @@ permalink: /
 # CADET - Distribution Network Planning Framework
 {: .fs-9 }
 
-A flexible optimization framework for making capacity-related decisions in electric distribution networks based on multiple objectives including cost, reliability, resilience, air quality, equity, carbon reductions, and hosting capacity.
+A flexible optimization framework for making capacity-related decisions in electric distribution networks based on multiple objectives including cost, reliability, resilience, air quality, carbon reductions, and hosting capacity.
 {: .fs-6 .fw-300 }
 
 [Get Started](/cadet_webpage/pages/getting-started){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }

@@ -28,7 +28,6 @@ CADET (Capacity Expansion Decision Support Tool) is a flexible optimization fram
 - ⚡ **Reliability** - Improve system reliability metrics
 - 🛡️ **Resilience** - Enhance network resilience to disruptions
 - 🌍 **Air Quality** - Reduce emissions and environmental impact
-- 📊 **Equity** - Ensure equitable distribution of benefits
 - 🌱 **Carbon Reductions** - Support decarbonization goals
 - 🔌 **Hosting Capacity** - Maximize distributed energy resource integration
 
