@@ -10,7 +10,7 @@ on:
 
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
-  contents: read
+  contents: write
   pages: write
   id-token: write
 
@@ -35,9 +35,8 @@ jobs:
           bundler-cache: true
       
       - name: Setup Pages
+        id: pages
         uses: actions/configure-pages@v4
-        with:
-          enablement: true
       
       - name: Build with Jekyll
         run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
